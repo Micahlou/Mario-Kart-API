@@ -1,6 +1,11 @@
+* {
+    background-color:aliceblue;
+}
+
 h1 {
     color:tomato;
     font-family: 'Staatliches', cursive;
+    
 }
 
 .section {
@@ -8,4 +13,9 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
+}
+
+.submit {
+    background-color: white;
 }

@@ -33,7 +33,7 @@ function render(marioInfo) {
         <h3>Driver: ${marioInfo.name}</h3>
         <p>Rarity: ${marioInfo.rarity}</p>
         <p>Special Skill: ${marioInfo.special_skill}</p>
-        
+        <p>Debut Tour: ${marioInfo.debut_tour}</p>
     
     `);
 }
