@@ -1,0 +1,11 @@
+h1 {
+    color:tomato;
+    font-family: 'Staatliches', cursive;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
