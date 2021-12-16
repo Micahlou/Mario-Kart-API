@@ -1,5 +1,62 @@
+
+
+
 * {
-    background-color:aliceblue;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 50px 1fr 30px;
+    height: 100vh;
+    margin: 0px;
+    font-family: Helvetica;
+}
+
+nav {
+    display: flex;
+    height: 50px;
+    background-color: rgb(212, 56, 56);
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > div {
+    font-size: 20px;
+    margin: 10px 10px;
+    color: whitesmoke;
+    background-color: rgb(212, 56, 56);
+}
+
+nav > div:last-child {
+    margin-left: auto;
+}
+
+aside {
+    
+    background-color: rgb(184, 184, 184);
+}
+
+.mainTwo {
+    
+    background-color: white;
+}
+
+footer {
+    
+    background-color: rgb(29, 27, 27);
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav, footer {
+    grid-column: span 2;
 }
 
 h1 {
@@ -17,5 +74,23 @@ h1 {
 }
 
 .submit {
-    background-color: white;
+    background-color: rgb(203, 247, 203);
 }
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+body {
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 50px auto 30px;
+    grid-template-areas: 
+      "hdr hdr"
+      "side content"
+      
+
+}
+  }

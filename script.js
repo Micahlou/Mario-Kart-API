@@ -1,6 +1,6 @@
 // variables
 const URL = "https://mario-kart-tour-api.herokuapp.com/api/v1/drivers/name?q="
-const drivers = '/drivers/high_end';
+
 // element refrences (DOM elements)
 const $form = $('form');
 const $input = $('input[type="text"]');
@@ -29,7 +29,7 @@ function handleGetData(evt) {
 }
 
 function render(marioInfo) {
-    $('main').html(`
+    $('.mainTwo').html(`
         <h3>Driver: ${marioInfo.name}</h3>
         <p>Rarity: ${marioInfo.rarity}</p>
         <p>Special Skill: ${marioInfo.special_skill}</p>
