@@ -18,7 +18,6 @@ This app allows users to acquire valuable information on the game "Mario Kart To
 
 <a href='https://postimg.cc/w3x596v0' target='_blank'><img src='https://i.postimg.cc/w3x596v0/Screen-Shot-2021-12-16-at-10-28-10-AM.png' border='0' alt='Screen-Shot-2021-12-16-at-10-28-10-AM'/></a>
 
-<a href='https://postimg.cc/w3x596v0' target='_blank'><img src='https://i.postimg.cc/w3x596v0/Screen-Shot-2021-12-16-at-10-28-10-AM.png' border='0' alt='Screen-Shot-2021-12-16-at-10-28-10-AM'/></a>
 
 ## Features
 Users can find data on ALL characters in MKT
